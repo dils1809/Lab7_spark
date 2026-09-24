@@ -1,0 +1,19 @@
+# Data files
+data/*.xlsx
+data/*.parquet
+data/parquet/
+
+# Spark / Jupyter
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+env/
+venv/
