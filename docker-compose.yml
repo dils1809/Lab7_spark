@@ -7,7 +7,8 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./working_dir:/opt/app/working_dir
+      - ./data:/opt/app/data
+      - ./src:/opt/app/src
       - ./notebooks:/opt/app/notebooks
     environment:
       - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
